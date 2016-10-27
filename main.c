@@ -11,9 +11,6 @@
 
 
 int main(int argc, char **argv) {
-    test_fault_detection_with_led();
-    test_fault_detection_with_led();
-
     task_manager *task_manager = get_task_manager();
     task_manager->init();
 
@@ -25,6 +22,4 @@ int main(int argc, char **argv) {
 
     // simulate system task & event
     run_system_task();
-
-    printf("hello \n");
 }

@@ -16,6 +16,7 @@ typedef struct tag_task_manager {
     void (*run)();
 } task_manager;
 
+
 task_manager *get_task_manager();
 
 #endif //MCU_REFACTOR_TASK_MANAGER_H
